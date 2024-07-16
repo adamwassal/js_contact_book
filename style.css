@@ -1,0 +1,60 @@
+#contacts {
+  margin: 30px;
+}
+
+.here {
+  background-color: rgb(181, 191, 191);
+}
+
+td {
+  width: 200px;
+  text-align: center;
+  border: 1px solid black;
+  padding: 5px;
+  font-size: x-large;
+}
+
+input {
+  text-align: center;
+  outline: none;
+  border: solid rgb(181, 51, 51);
+  margin: 5px;
+}
+
+input:focus {
+  text-align: center;
+  outline: none;
+  border: double rgb(51, 181, 94);
+}
+
+.del {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.del:hover {
+  background-color: rgb(97, 31, 31);
+  color: white;
+}
+
+.upd {
+  background-color: rgb(77, 193, 48);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.upd:hover {
+  background-color: rgb(97, 154, 92);
+  color: white;
+}
+
+button {
+  background-color: rgb(113, 132, 84);
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(153, 255, 0);
+  color: black;
+}
